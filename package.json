@@ -1,17 +1,18 @@
 {
-  "name": "test",
+  "name": "nextoy",
   "private": true,
   "scripts": {
     "build": "turbo build",
-    "dev": "turbo dev",
+    "dev": "turbo run dev --filter=web... --concurrency=31",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
-    "prettier": "^3.2.5",
+    "@nextoy/eslint-config": "workspace:*",
+    "@nextoy/typescript-config": "workspace:*",
+    "prettier": "^2.8.3",
     "turbo": "latest"
+    
   },
   "packageManager": "pnpm@9.0.6",
   "engines": {

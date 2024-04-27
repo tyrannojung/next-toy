@@ -1,28 +1,28 @@
-## Getting Started
+# Tokamak Bridge
 
-First, run the development server:
+Welcome to the Tokamak Bridge, your gateway for seamless token transfers between the Titan and Ethereum networks. Our platform also provides support for token swaps using Uniswap contracts, enabling you to efficiently manage your assets across different blockchain ecosystems.
 
-```bash
-yarn dev
-```
+### Website
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit our website to explore the Tokamak Bridge and start transferring tokens and swapping assets:  
+[Tokamak Bridge Website](https://bridge.tokamak.network/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Features
 
-To create [API routes](https://nextjs.org/docs/app/building-your-application/routing/router-handlers) add an `api/` directory to the `app/` directory with a `route.ts` file. For individual endpoints, create a subfolder in the `api` directory, like `api/hello/route.ts` would map to [http://localhost:3000/api/hello](http://localhost:3000/api/hello).
+- Token Transfers: Move tokens between Titan and Ethereum networks effortlessly.
+- Token Swaps: Utilize Uniswap contracts for secure and efficient token swaps.
+- Interoperability: Seamlessly interact with different blockchain networks.
 
-## Learn More
+### Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+Visit the Tokamak Bridge website: Tokamak Bridge Website
+Connect your wallet to access token transfer and swap functionalities.
+Follow the on-screen instructions to initiate transfers or swaps.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn/foundations/about-nextjs) - an interactive Next.js tutorial.
+### Support
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+If you encounter any issues or have questions about the Tokamak Bridge, please reach out to our support team via [Help & Support Form](https://docs.google.com/forms/d/e/1FAIpQLSfCUJjuABK0Locc3Fqwr2W5eHI-Hpj6wiiGceBr1e4q4g9nmg/viewform).
 
-## Deploy on Vercel
+### License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_source=github.com&utm_medium=referral&utm_campaign=turborepo-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License.

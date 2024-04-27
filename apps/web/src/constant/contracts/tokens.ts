@@ -1,0 +1,38 @@
+import { WTON } from "./../../utils/uniswap/libs/constant";
+import { USDT } from "./../uniswap/tokens";
+import { SupportedChainId } from "@/types/network/supportedNetwork";
+import {
+  MAINNET_CONTRACTS,
+  SEPOLIA_CONTRACTS,
+  THANOS_SEPOLIA_CONTRACTS,
+  TITAN_SEPOLIA_CONTRACTS,
+  TOKAMAK_CONTRACTS,
+} from ".";
+
+export const WETH_ADDRESS_BY_CHAINID: Record<number, string> = {
+  [SupportedChainId.MAINNET]: MAINNET_CONTRACTS.WETH_ADDRESS,
+  [SupportedChainId.SEPOLIA]: SEPOLIA_CONTRACTS.WETH_ADDRESS,
+  [SupportedChainId.TITAN]: TOKAMAK_CONTRACTS.WETH_ADDRESS,
+  [SupportedChainId.TITAN_SEPOLIA]: TITAN_SEPOLIA_CONTRACTS.WETH_ADDRESS,
+};
+
+export const TON_ADDRESS_BY_CHAINID: Record<number, string> = {
+  [SupportedChainId.MAINNET]: MAINNET_CONTRACTS.TON_ADDRESS,
+  [SupportedChainId.SEPOLIA]: SEPOLIA_CONTRACTS.TON_ADDRESS,
+  [SupportedChainId.TITAN]: TOKAMAK_CONTRACTS.TON_ADDRESS,
+  [SupportedChainId.TITAN_SEPOLIA]: TITAN_SEPOLIA_CONTRACTS.TON_ADDRESS,
+};
+
+export const WTON_ADDRESS_BY_CHAINID: Record<number, string> = {
+  [SupportedChainId.MAINNET]: MAINNET_CONTRACTS.WTON_ADDRESS,
+  [SupportedChainId.SEPOLIA]: SEPOLIA_CONTRACTS.WTON_ADDRESS,
+  [SupportedChainId.THANOS_SEPOLIA]: THANOS_SEPOLIA_CONTRACTS.WTON_ADDRESS,
+};
+
+export const USDT_ADDRESS_BY_CHAINID: Record<number, string> = {
+  [SupportedChainId.MAINNET]: MAINNET_CONTRACTS.USDT_ADDRESS,
+  [SupportedChainId.SEPOLIA]: SEPOLIA_CONTRACTS.USDT_ADDRESS,
+  [SupportedChainId.TITAN]: TOKAMAK_CONTRACTS.USDT_ADDRESS,
+  [SupportedChainId.TITAN_SEPOLIA]: TITAN_SEPOLIA_CONTRACTS.USDT_ADDRESS,
+  [SupportedChainId.THANOS_SEPOLIA]: THANOS_SEPOLIA_CONTRACTS.USDT_ADDRESS,
+};

@@ -1,19 +1,29 @@
 {
-  "name": "@repo/eslint-config",
+  "name": "@nextoy/eslint-config",
   "version": "0.0.0",
-  "private": true,
+  "description": "Eslint config for tokamak",
+  "main": "lib/index.js",
   "files": [
-    "library.js",
-    "next.js",
-    "react-internal.js"
+    "lib"
   ],
+  "license": "MIT",
+  "autor": "dawoon.eth",
+  "private": true,
   "devDependencies": {
-    "@vercel/style-guide": "^5.2.0",
-    "eslint-config-turbo": "^1.12.4",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-only-warn": "^1.1.0",
-    "@typescript-eslint/parser": "^7.1.0",
-    "@typescript-eslint/eslint-plugin": "^7.1.0",
-    "typescript": "^5.3.3"
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.32.0",
+    "prettier": "^2.8.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

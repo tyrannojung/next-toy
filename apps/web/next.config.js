@@ -1,4 +1,11 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
-  transpilePackages: ["@repo/ui"],
+const nextConfig = {
+  /* config options here */
+  webpack: (config) => {
+    config.resolve.fallback = { fs: false };
+    return config;
+  },
+  reactStrictMode: false,
 };
+
+module.exports = nextConfig;
